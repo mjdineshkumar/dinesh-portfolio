@@ -283,3 +283,81 @@ footer {
     padding: 25px;
     color: #aaa;
 }
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #home {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .profile-photo {
+        margin: auto;
+    }
+
+    .profile-photo img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .intro h1 {
+        font-size: 35px;
+    }
+
+    .intro h2 {
+        font-size: 25px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+/* Small Mobile Screens */
+
+@media screen and (max-width: 480px) {
+
+    .intro h1 {
+        font-size: 28px;
+    }
+
+    .intro p {
+        font-size: 15px;
+    }
+
+    .profile-photo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+}
