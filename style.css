@@ -381,5 +381,17 @@ footer {
         display: block;
     }
 }
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 100%;
+        padding: 20px 10px;
+        box-sizing: border-box;
+    }
+
+    .intro h1 {
+        font-size: 32px;
+        overflow-wrap: break-word;
+    }
+}
 
 
